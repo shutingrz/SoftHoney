@@ -1,0 +1,65 @@
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>espaebook &lsaquo; Acceder</title>
+	<link rel='dns-prefetch' href='//s.w.org' />
+<script type='text/javascript' src='http://www.espaebook.com/wp-admin/load-scripts.php?c=1&amp;load%5B%5D=jquery-core,jquery-migrate&amp;ver=4.7.5'></script>
+<link rel='stylesheet' href='http://www.espaebook.com/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.7.5' type='text/css' media='all' />
+<style type="text/css">
+    h1 {
+    	width: 232px;
+    	margin: 0 auto !important;
+	}
+    h1 a { 
+    	background-image:url(http://www.espaebook.com/wp-content/themes/pdo-calibre/images/logo.png) !important;
+    	width: 232px !important;
+    	height: 90px !important;
+    	background-size: 232px 90px !important;
+	}
+    </style><meta name='robots' content='noindex,follow' />
+	<meta name="viewport" content="width=device-width" />
+		</head>
+	<body class="login login-action-login wp-core-ui  locale-es-es">
+		<div id="login">
+	
+<form name="loginform" id="loginform" action="http://www.espaebook.com/wp-login.php" method="post">
+	<p>
+		<input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
+	</p>
+	<p>
+		<label for="user_pass">Contrasea<br />
+		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+	</p>
+		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> remem</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Acceder" />
+		<input type="hidden" name="redirect_to" value="http://www.espaebook.com/book/beauty/" />
+		<input type="hidden" name="testcookie" value="1" />
+	</p>
+</form>
+
+<p id="nav">
+<a rel="nofollow" href="http://www.espaebook.com/wp-login.php?action=register">Registrarse</a> | 	<a href="http://www.espaebook.com/wp-login.php?action=lostpassword">Has perdido tu contrase?</a>
+</p>
+
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+d = document.getElementById('user_login');
+d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
+
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
+
+	<p id="backtoblog"><a href="http://www.espaebook.com/">&larr; Volver a espaebook</a></p>
+	
+	</div>
+
+	
+		<div class="clear"></div>
+	</body>
+	</html>
+	
